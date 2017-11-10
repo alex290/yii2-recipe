@@ -9,7 +9,7 @@
 
 И подключаем скрипт
 
-	$('.input-in').keypress(function(){
+	$('.input-in').keyup(function(){
     	$('.input-out').val(cyrillicToTranslit().transform($(this).val()));
 	});
 
