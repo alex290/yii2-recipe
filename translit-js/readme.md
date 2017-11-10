@@ -7,7 +7,7 @@
 В первое поле пишем класс например input-in - где будем вводить текст
 А во втором пишем класс  input-out - где будет вводиться текст в латинице.
 
-И подключаем скрипт
+И запускаем
 
 	$('.input-in').keyup(function(){
     	$('.input-out').val(cyrillicToTranslit().transform($(this).val()));
