@@ -12,6 +12,10 @@
 
 ${1} - Это данные которые забрали
 
+для php это выглядит так
+
+	$text = preg_replace('#<iframe[^<]+src="[^<]+www.youtube.com/embed/([-_a-z0-9]{11})[^<]+</iframe>#is', 'https://www.youtube.com/watch?v=${1}', $srting);
+
 ## Создание плеера iframe из ссылки youtube ##
 
 	<?php if (!empty($model->video)): ?>
