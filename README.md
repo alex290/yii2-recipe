@@ -9,3 +9,14 @@
 **[sef-URL.md](https://github.com/alex290/yii2-recipe/blob/master/sef-URL.md)** - Yii2 ЧПУ ссылок (URL) для сайта используя свой класс правил для urlManager из DB
 
 **[youtube](https://github.com/alex290/yii2-recipe/tree/master/youtube)** - Замена ссылок youtube
+
+## Первая картинка из текста ##
+
+	<?php
+	 	$outputImg = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $model->body, $matches);
+	 	$first_img = $matches [1] [0];
+	?>
+
+и выводим
+
+	<img src="<?= $first_img ?>" style="float: left; margin-right: 8px" width="250px" height="auto" alt="">
