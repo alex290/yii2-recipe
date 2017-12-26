@@ -79,7 +79,8 @@
 						$page = $value;
 						continue;
 					}
-					$link .= "$key=$value&";
+					$newValue = !is_array($value) ? $value : join($value, ',');
+					$link .= "$key=$newValue&";
 				}
 				$link = substr($link, 0, -1); //удаляем последний символ (&)
 			}
