@@ -95,7 +95,7 @@ test - условное название нашего ftp сервера,
 	[git-ftp "prod"]
 	     user = b4407539_qwe
 	     url = "free.get.com/"
-     password = df333Grg34g
+	     password = df333Grg34g
 
 Тогда для загрузки на указанный сервер prod новых изменений, соответственно, выполняем:
 
