@@ -37,7 +37,7 @@
 	[git-ftp "test"]
 	     user = df836as
 	     url = "92.51.92.51/spec/public_html"
-     password = dfgd34rg34g
+	     password = dfgd34rg34g
 
 **Что есть что:**
 
