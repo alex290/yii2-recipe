@@ -10,6 +10,8 @@
 
 **[youtube](https://github.com/alex290/yii2-recipe/tree/master/youtube)** - Замена ссылок youtube
 
+**[git-ftp](https://github.com/alex290/yii2-recipe/tree/master/git-ftp)** - git-ftp Быстрая установка на Windows. Настройка -- Как загружать изменения на хостинг через FTP
+
 ## Первая картинка из текста ##
 
 	<?php
